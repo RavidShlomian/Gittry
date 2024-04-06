@@ -12,4 +12,6 @@ COPY . .
 RUN npm install
 
 # Adjust this line to correctly reference the location of server.js
-CMD [ "node", "src/server.js" ]
+CMD [ "node", "src/server.js", ""]
+
+#hi there! i am ravid 
